@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-family: "Arial";
+  font-size: 16px;
+}
+.clear {
+  clear: both;
+}
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .header .logo {
+  margin-top: 15px;
+  margin-left: 60px;
+  float: left;
+}
+.container .header .menu{
+  margin-top: 50px;
+  float: right;
+}
+.container .header .menu ul li{
+  float: left;
+  list-style-type: none;
+}
+.container .header .menu ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 80px 10px 10px 10px;
+  color: black;
+}
+.container .header .menu ul li a:hover{
+  background-color: rgb(2, 145, 203);
+  color: white;
+}
+.container .banner{
+  width: 1000px;
+  height: 400px;
+  margin-top: 30px;
+  background-image: url(./img/banner.png);
+  background-position: center;
+}
+
+.container .body .box ul{
+  list-style-type: none;
+  
+}
+
+
+.container .body .box ul li{
+   background-color: rgb(243, 243, 243);
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 310px;
+  height: 100px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container .body .box ul li:first-of-type{
+  margin-left: -40px;
+  padding-right: 10px;
+  margin-right: 10px;
+
+}
+
+.container .body .box ul li:second-of-type{
+  padding-top: 10px;
+
+}
+
+.container .body .box ul li:last-of-type{
+  margin-left: 40px;
+  padding-top: 10px;
+
+}
+
+.container .box ul li a img{
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+.container .content .news .new .picture{
+	border: 1px solid lightgray;
+	float: left;
+	width: 99px;
+	height: 99px;
+	padding: 1px;
+}
+
+.container .content .news .new .left-block{
+	width: 230px;
+    float: left;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-top: -13px;
+	
+}
+
+.container .content .news {
+	float: left;
+}
+
+.container .content .news .new{
+
+}
+
+.container .content .news .new .left-block h3{
+	font-size: 12px;
+}
+
+.container .content .news .new .left-block p{
+	margin-top: -8px;
+}
+
+.container .content .news .new .left-block .date{
+	font-weight: bold;
+}
+
+.container .content .about{
+	padding-top: 10px
+}
+
+.container .content .about h2{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.container .content .about p{
+
+	font-size: 12px;
+    margin-top: 20px;
+    line-height: 14px;
+}
+
+
+.container .footer{
+	margin-top: 50px;
+	background-color: rgb(59,59,59);
+}
+
+.container .footer p{
+	padding: 20px;
+	font-size: 11px;
+	color: lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
